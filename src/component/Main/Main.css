@@ -17,3 +17,13 @@ h2{
 .activity-container{
     margin: 2rem 1rem;
 }
+
+@media only screen and (max-width: 600px){
+    .courses-container{
+        margin: 0;
+        display: grid;
+        grid-template-columns: repeat(1, 1fr);
+        gap: 1rem;
+    }
+
+}

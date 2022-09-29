@@ -7,19 +7,7 @@ const Course = (props) => {
     const addToList = (time) =>{
         totalDuration(time);
     }
-    return (
-            // <div className='card shadow'>
-            //         <img src={img} className="card-img-top fluid" alt="..." />
-            //         <div className="card-body">
-            //             <div className='card-text'>
-            //             <h5 className="card-title">{course}</h5>
-            //             <p className="card-text">{discription}</p>
-            //             <h6>Time: {time}</h6>
-            //             </div>
-            //             <button onClick={() => addToList(time)} className='btn btn-primary'>Add Activity</button>
-            //         </div>
-            // </div>
-            
+    return (       
             <div className="card shadow p-2">
             <img src={img} className="card-img-top fluid" alt="..." />
             <div className="card-body">

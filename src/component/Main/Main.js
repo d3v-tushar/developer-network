@@ -7,14 +7,14 @@ import './Main.css'
 const Main = () => {
     const [courses, setCourses] = useState([]);
     useEffect(() =>{
-        fetch('https://dev-network.free.beeceptor.com')
+        fetch('https://d3v-tushar.github.io/fake-json-data/fake-data.json')
         .then(Response => Response.json())
         .then(data => setCourses(data))
     },[])
     //console.log(courses);
     return (
         <div>
-            <div className='main-body'>
+            <div className='main-body d-lg-flex'>
                     <div className='activity-container'>
                         <h1>Developer Network</h1>
                         <h2>Select Today's Practice Module</h2>
@@ -28,9 +28,7 @@ const Main = () => {
                     <User></User>
                 </div>
             </div>
-           <div className='container'>
-           <Qna></Qna>
-           </div>
+            <Qna></Qna>
         </div>
     );
 };

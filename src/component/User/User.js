@@ -16,39 +16,42 @@ useEffect(()=>{
                 <Profile></Profile>
                     <hr className="my-4" />
 
-                    <div className="mx-2 rounded">
-                        <div className="bg-secondary bg-opacity-25 rounded row mx-3 p-4">
-                            <div className="col-lg-4 align-items-center">
-                                <div className="d-flex align-items-bottom p-2">
-                                    <h3>65</h3>
-                                    <h5>KG</h5>
-
-                                </div>
-                                <h5>Weight</h5>
-
-                            </div>
-                            <div className="col-lg-4 align-items-center">
-                                <div className="d-flex align-items-bottom p-2">
-                                    <h3>5.8</h3>
-                                    <h5>FT</h5>
-
-                                </div>
-                                <h5>Height</h5>
-
-                            </div>
-                            <div className="col-lg-4 align-items-center">
-                                <div className="d-flex align-items-bottom p-2">
-                                    <h3>25</h3>
-                                    <h5>Yr</h5>
-
-                                </div>
-                                <h5>Age</h5>
-
-                            </div>
-
-                        </div>
-
+                <div>
+                    <h6>HTML</h6>
+                    <div className="progress">
+                        <div className="progress-bar bar-style" role="progressbar" aria-label="Basic example" aria-valuenow="75" aria-valuemin="0" aria-valuemax="100"></div>
                     </div>
+                </div>
+                <div>
+                    <h6>CSS3</h6>
+                    <div className="progress">
+                        <div className="progress-bar bar-style" role="progressbar" aria-label="Basic example" aria-valuenow="75" aria-valuemin="0" aria-valuemax="100"></div>
+                    </div>
+                </div>
+                <div>
+                    <h6>BOOTSTRAP</h6>
+                    <div className="progress">
+                        <div className="progress-bar bar-style" role="progressbar" aria-label="Basic example" aria-valuenow="75" aria-valuemin="0" aria-valuemax="100"></div>
+                    </div>
+                </div>
+                <div>
+                    <h6>TAILWIND</h6>
+                    <div className="progress">
+                        <div className="progress-bar bar-style" role="progressbar" aria-label="Basic example" aria-valuenow="75" aria-valuemin="0" aria-valuemax="100"></div>
+                    </div>
+                </div>
+                <div>
+                    <h6>JAVASCRIPT</h6>
+                    <div className="progress">
+                        <div className="progress-bar bar-style" role="progressbar" aria-label="Basic example" aria-valuenow="75" aria-valuemin="0" aria-valuemax="100"></div>
+                    </div>
+                </div>
+                <div>
+                    <h6>REACT JS</h6>
+                    <div className="progress">
+                        <div className="progress-bar bar-style" role="progressbar" aria-label="Basic example" aria-valuenow="75" aria-valuemin="0" aria-valuemax="100"></div>
+                    </div>
+                </div>
                     <hr className="my-4" />
 
                     <div className="col-lg-12 mx-auto rounded">
