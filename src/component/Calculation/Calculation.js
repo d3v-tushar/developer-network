@@ -1,5 +1,4 @@
 import React from 'react';
-import { Toast } from '../Toast/Toast';
 
 const toastTrigger =() =>{
     alert('Congrates You Have Made It')

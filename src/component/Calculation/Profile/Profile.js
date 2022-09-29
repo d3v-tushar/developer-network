@@ -9,7 +9,7 @@ const Profile = () => {
                             className="img-fluid rounded-circle" />
                 </div>
                     <div>
-                        <h5>M Ahmed Tushar</h5>
+                        <h5>Ornob H. Tushar</h5>
                         <h5 className="text-secondary">Dhaka, Bangladesh</h5>
                     </div>
             </div>

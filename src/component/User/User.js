@@ -1,7 +1,7 @@
 import React, { useEffect } from 'react';
 import Calculation from '../Calculation/Calculation';
 import Profile from '../Calculation/Profile/Profile';
-import Toast from '../Toast/Toast';
+//import Toast from '../Toast/Toast';
 import { BreakTimeLS, DisplayBreakTimeFromLS } from '../Utilities/Utlities';
 import './User.css';
 const User = () => {
@@ -75,7 +75,6 @@ useEffect(()=>{
                     </div>
                     <hr className="my-4" />
                 <Calculation></Calculation>
-                <Toast></Toast>
                 </div>
             </div>
             </div>
