@@ -20,7 +20,7 @@ const Course = (props) => {
             //         </div>
             // </div>
             
-        <div className="card shadow">
+            <div className="card shadow p-2">
             <img src={img} className="card-img-top fluid" alt="..." />
             <div className="card-body">
               <h5 className="card-title">{course}</h5>
