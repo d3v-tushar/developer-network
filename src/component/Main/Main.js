@@ -13,7 +13,7 @@ const Main = () => {
     //console.log(courses);
     return (
         <div className='main-body'>
-            <div>
+            <div className='activity-container'>
                 <h1>Developer Network</h1>
                 <h2>Select Today's Practice Module</h2>
                 <div className='courses-container'>

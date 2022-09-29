@@ -1,7 +1,3 @@
-const totalTime = () =>{
-    const times = totalDuration();
-}
-
 // const addToCart = (time) =>{
 //     const totalDuration = document.getElementById(name);
 //     const durarion = phoneName.innerText;
@@ -64,7 +60,6 @@ const breakTime = (breakTime) =>{
 
 export {
     totalDuration,
-    totalTime,
     breakTime
 }
 

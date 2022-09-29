@@ -5,4 +5,7 @@ card{
     border: 2px solid gray;
     width: 6rem;
 }
+.card-text{
+    text-align: start;
+}
 
