@@ -2,6 +2,30 @@
     border: 2px solid black;
     border-radius: 10px;
 }
-.bar-style{
+.bar-style-html{
+    width: 100%;
+}
+.bar-style-css{
     width: 75%;
+}
+.bar-style-bootstrap{
+    width: 75%;
+}
+.bar-style-tailwind{
+    width: 50%;
+}
+.bar-style-javascript{
+    width: 75%;
+}
+.bar-style-react{
+    width: 25%;
+}
+
+.skills{
+    border: 2px solid lightgrey;
+    margin: 1rem 0rem;
+    background-color: lightgray;
+    padding: 1rem 0.5rem;
+    border-radius: 10px;
+
 }

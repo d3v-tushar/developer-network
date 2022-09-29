@@ -14,9 +14,11 @@ const BreakTimeLS = (value) =>{
 
 const DisplayBreakTimeFromLS = () =>{
     let savedDuration = localStorage.getItem('break-time');
-    console.log(savedDuration);
-    const displayTime = document.getElementById('break-time');
-    displayTime.innerText = savedDuration;
+    //console.log(savedDuration);
+    if(savedDuration){
+        const displayTime = document.getElementById('break-time');
+        displayTime.innerText = savedDuration;
+    }
 }
 
 export {
