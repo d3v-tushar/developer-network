@@ -3,19 +3,19 @@
     border-radius: 10px;
 }
 .bar-style-html{
-    width: 100%;
+    width: 90%;
 }
 .bar-style-css{
-    width: 75%;
+    width: 80%;
 }
 .bar-style-bootstrap{
-    width: 75%;
+    width: 70%;
 }
 .bar-style-tailwind{
     width: 50%;
 }
 .bar-style-javascript{
-    width: 75%;
+    width: 65%;
 }
 .bar-style-react{
     width: 25%;
@@ -27,5 +27,4 @@
     background-color: lightgray;
     padding: 1rem 0.5rem;
     border-radius: 10px;
-
 }

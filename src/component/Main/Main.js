@@ -16,7 +16,7 @@ const Main = () => {
         <div>
             <div className='main-body d-lg-flex'>
                     <div className='activity-container'>
-                        <h1><span><i className="fa-solid fa-code"></i></span>Developer Network</h1>
+                        <h1><span><i className="fa-solid fa-code"></i></span> Developer Network</h1>
                         <h4>Select Today's Practice Module</h4>
                         <div className='courses-container'>
                         {
