@@ -10,7 +10,6 @@ const BreakTimeLS = (value) =>{
     const breakDuration = document.getElementById('break-time');
     breakDuration.innerText = value;
     localStorage.setItem('break-time', value);
-    //const [breakTime, setbreakTime] = useState(0);
 }
 
 const DisplayBreakTimeFromLS = () =>{

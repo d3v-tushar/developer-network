@@ -1,14 +1,9 @@
 import React from 'react';
+import { Toast } from '../Toast/Toast';
 
-// const toastTrigger = document.getElementById('liveToastBtn')
-// const toastLiveExample = document.getElementById('liveToast')
-// if (toastTrigger) {
-//   toastTrigger.addEventListener('click', () => {
-//     const toast = new bootstrap.Toast(toastLiveExample)
-
-//     toast.show()
-//   })
-// }
+const toastTrigger =() =>{
+    alert('Congrates You Have Made It')
+}
 
 const Calculation = () => {
     return (
@@ -21,7 +16,7 @@ const Calculation = () => {
                 <h5 className='d-flex justify-content-between mx-3 bg-secondary bg-opacity-25 rounded p-3'><span>Break time</span> <span className='text-muted' id='break-time'>00</span></h5>
             </div>
             <hr className="my-4" />
-              <button type="button" className='btn btn-primary btn-lg' id="liveToastBtn">Activity Completed</button>
+              <button type="button" onClick={toastTrigger} className='btn btn-primary btn-lg' id="liveToastBtn">Activity Completed</button>
         </div>
     );
 };
