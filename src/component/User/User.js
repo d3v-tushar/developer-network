@@ -14,7 +14,7 @@ useEffect(()=>{
                 <div className="p-3 row">
                 <Profile></Profile>
                     <hr className="my-4" />
-
+                    <h4 className='text-center'>Progress</h4>
                 <div className='skills'>
                     <h6>HTML</h6>
                     <div className="progress">

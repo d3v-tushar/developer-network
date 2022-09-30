@@ -1,4 +1,3 @@
-//import { useState } from "react";
 
 const totalDuration = (time) =>{
  const displayedTime = document.getElementById('activity-time');
@@ -14,17 +13,8 @@ const BreakTimeLS = (value) =>{
     localStorage.setItem('break-time', value);
 }
 
-// const BreakTimeLS = (value) =>{
-//     const [duration, setDuration] = useState(0);
-//     setDuration(duration + value);
-//      const breakDuration = document.getElementById('break-time');
-//      breakDuration.innerText = duration;
-//      localStorage.setItem('break-time', value);
-// }
-
 const DisplayBreakTimeFromLS = () =>{
     let savedDuration = localStorage.getItem('break-time');
-    //console.log(savedDuration);
     if(savedDuration){
         const displayTime = document.getElementById('break-time');
         displayTime.innerText = savedDuration;
